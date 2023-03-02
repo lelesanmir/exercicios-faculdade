@@ -13,12 +13,14 @@
         $tv = new Televisao();
 
         echo '<hr>';
-            var_dump($tv);
+        var_dump($tv);
+        print_r($tv);
         echo '<hr>';
         echo 'Vamos ligar a TV<br>';
         echo '<hr>';
         $tv->ligaDesliga();
         var_dump($tv);
+        print_r($tv);
         echo '<hr>';
         echo 'Vamos aumentar o canal<br>';
         $tv->aumentaCanal();
